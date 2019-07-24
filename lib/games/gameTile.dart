@@ -14,6 +14,7 @@ class GameTile extends StatelessWidget {
             backgroundImage: NetworkImage(this._imageUrl)
         ),
         subtitle: Text('Ready to play'),
+        onTap: () { /* react to the tile being tapped */ },
         title: Text(this._name));
   }
 }

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'games/games.dart';
+import 'games/gamesListView.dart';
 
 void main() => runApp(MyApp());
 
@@ -12,7 +12,29 @@ class MyApp extends StatelessWidget {
         brightness: Brightness.dark,
         accentColor: Colors.lightBlue
       ),
-      home: Games(),
+      home: Scaffold(
+        appBar: AppBar(
+          title: Text("DualTwo"),
+        ),
+        body: GamesListView(),
+        bottomNavigationBar: BottomNavigationBar(
+          currentIndex: 0,
+          items: [
+            BottomNavigationBarItem(
+              icon: new Icon(Icons.videogame_asset),
+              title: new Text('Games'),
+            ),
+            BottomNavigationBarItem(
+              icon: new Icon(Icons.store),
+              title: new Text('Store'),
+            ),
+            BottomNavigationBarItem(
+                icon: Icon(Icons.settings),
+                title: Text('Settings')
+            )
+          ],
+        ),
+      )
     );
   }
 }
