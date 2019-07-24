@@ -14,7 +14,14 @@ class MyApp extends StatelessWidget {
       ),
       home: Scaffold(
         appBar: AppBar(
-          title: Text("DualTwo"),
+          title: Row(
+            children: [
+              Image.asset('assets/images/logo.png', height: 20.0),
+              SizedBox(width: 15.0),
+              Text('The Lab')
+            ],
+          ),
+
         ),
         body: GamesListView(),
         bottomNavigationBar: BottomNavigationBar(
