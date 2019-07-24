@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_app/game/game.dart';
+import 'package:flutter_app/main.dart';
 
 class GameTile extends StatelessWidget {
   final String _name;
@@ -14,7 +16,12 @@ class GameTile extends StatelessWidget {
             backgroundImage: NetworkImage(this._imageUrl)
         ),
         subtitle: Text('Ready to play'),
-        onTap: () { /* react to the tile being tapped */ },
+        onTap: () {
+          Navigator.push(
+            context,
+            MaterialPageRoute(builder: (context) => Game()),
+          );
+        },
         title: Text(this._name));
   }
 }

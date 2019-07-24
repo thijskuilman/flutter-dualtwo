@@ -21,7 +21,6 @@ class MyApp extends StatelessWidget {
               Text('The Lab')
             ],
           ),
-
         ),
         body: GamesListView(),
         bottomNavigationBar: BottomNavigationBar(
