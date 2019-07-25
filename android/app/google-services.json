@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "780466232442",
+    "firebase_url": "https://rathergame-9dfa5.firebaseio.com",
+    "project_id": "rathergame-9dfa5",
+    "storage_bucket": "rathergame-9dfa5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:780466232442:android:5bd73d22897f1b9a",
+        "android_client_info": {
+          "package_name": "nl.yukka.flutter_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "780466232442-m1pdutddg0mqb6h54jqu0km6nng5e1v9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "nl.yukka.flutter_app",
+            "certificate_hash": "df356594871b3b444d62465970cf328332914e16"
+          }
+        },
+        {
+          "client_id": "780466232442-fnvkkq3r1rsgegeno2lsfovomieeugqf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAloYQKONdJXC5cIU7TWcfHY_3Y226wqGo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "780466232442-fnvkkq3r1rsgegeno2lsfovomieeugqf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
